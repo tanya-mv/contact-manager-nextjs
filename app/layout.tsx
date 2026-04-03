@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "./_components/Navbar.tsx"
+import Navbar from "./_components/Navbar";
+
 export const metadata: Metadata = {
   title: "Contact Manager",
   description: "A simple contact management application",
