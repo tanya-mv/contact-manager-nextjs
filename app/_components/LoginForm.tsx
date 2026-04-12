@@ -1,9 +1,11 @@
 "use client";
 import React from "react";
+import { loginAction } from "../actions/auth";
+
 
 export default function LoginForm(){
     return (
-    <form className="space-x-4">
+    <form action={loginAction} className="space-x-4">
         <div>
             <label className="block text-sm font-medium text-gray-700">Email</label>
             <input
