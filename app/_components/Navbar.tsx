@@ -3,7 +3,7 @@ import Link from "next/link";
 import LogoutButton from "./LogoutButton";
 
 export default function Navbar(){
-    const session = true;
+    const session = false;
     return (
     <nav className="bg-white shadow-sm">
         <div className="container mx-auto p-4 flex justify-between items-center">
@@ -25,7 +25,7 @@ export default function Navbar(){
                     </Link>
                     <Link href="/register" className="hover:text-blue-600">
                     Register 
-                    </Link>
+                    </Link> 
                     </>
 
                 )}
