@@ -14,7 +14,7 @@ export default function Navbar(){
                 {session ? (
                     <>
                     <Link href="/contact" className="hover:text-blue-600 mr-8">
-                    Contacts
+                        Contacts
                     </Link>
                     <LogoutButton/>
                     </>
